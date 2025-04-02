@@ -48,4 +48,5 @@ This repository contains a collection of PowerShell scripts designed to automate
 Feel free to contribute to this repository by submitting pull requests. If you find any issues or have suggestions for improvements, please open an issue.
 
 ## License
-MIT License 
+
+This project is licensed under the [MIT License](LICENSE).
