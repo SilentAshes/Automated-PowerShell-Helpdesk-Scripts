@@ -73,4 +73,4 @@ Feel free to contribute to this repository by submitting pull requests. If you f
 
 ## License
 
-This Repo Is Licensed Under The [MIT License](License)
+This Repo Is Licensed Under The [MIT License](LICENSE)
