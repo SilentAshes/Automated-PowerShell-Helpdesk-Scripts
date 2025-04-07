@@ -6,27 +6,42 @@ This repository contains a collection of PowerShell scripts designed to automate
 
 * **Add_Remove_Usr_From_Group.ps1:** Adds or removes users from local groups.
     * Example: `.\Add_Remove_Usr_From_Group.ps1 -UserName "ExistingUser" -GroupName "Administrators" -Action "Add"`
+
 * **Check_Disk_Space.ps1:** Checks the available disk space on local drives.
+
 * **Check_ERROR_Logs.ps1:** Checks the Application and System event logs for error entries.
+  
 * **Check_Firewall_Rules.ps1:** Lists enabled firewall rules.
+  
 * **Clear_Temp.ps1:** Clears temporary files from user temp directories.
+  
 * **Copy_Shared_Folders.ps1:** Copies folders and files from a network share to a local workstation.
     * Example: `.\Copy_Shared_Folders.ps1 -sourcePath "\\server\share" -destinationPath "C:\local"`
+   
 * **Create_User_Accounts.ps1:** Creates new local user accounts with specified settings.
     * Example: `.\Create_User_Accounts.ps1 -UserName "NewUser" -Password "P@$$wOrd123" -FullName "New User" -Description "Test User" -Group "Administrators"`
+
 * **Disable_Enable_User_Accounts.ps1:** Enables or disables local user accounts.
     * Example: `.\Disable_Enable_User_Accounts.ps1 -UserName "ExistingUser" -Action "Disable"`
+      
 * **Export_User_&_GroupMembership_2_CSV.ps1:** Exports a CSV file listing local users and their group memberships.
     * Example: `.\Export_User_&_GroupMembership_2_CSV.ps1 -CsvFilePath "C:\Users\PC\Desktop\UserGroups.csv"`
+      
 * **Fix_Connectivity_Issues.ps1:** Diagnoses and resolves common network connectivity problems (IP renewal, DNS flush, adapter restart).
     * Example: `.\Fix_Connectivity_Issues.ps1 -flushDNS`
+      
 * **List_Users_&Groups.ps1:** Lists local users and groups.
+  
 * **Reset_User_Passwords.ps1:** Resets local user passwords.
     * Example: `.\Reset_User_Passwords.ps1 -UserName "ExistingUser" -NewPassword "NewP@$$wOrd456"`
+      
 * **Restart_Services.ps1:** Restarts specified Windows services.
     * Example: `.\Restart_Services.ps1 -serviceNames "Spooler", "wuauserv"`
+      
 * **System_Information.ps1:** Retrieves and displays system information.
+  
 * **View_Installed_Software.ps1:** Lists installed software and their versions.
+  
 
 ## Usage
 
